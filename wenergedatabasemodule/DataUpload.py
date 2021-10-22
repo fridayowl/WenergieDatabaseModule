@@ -1,5 +1,6 @@
 import firebase_admin
 from firebase_admin import db
+
 class dataupload :
 
     def initialize_firebase(self,credentiallocation,databaseurl,basepath):
@@ -7,3 +8,5 @@ class dataupload :
         firebase_admin.initialize_app(cred, {databaseurl})
         ref= db.reference(basepath)
         return ref
+    def helloworld(self):
+        return "Hello world"
