@@ -8,5 +8,5 @@ class dataupload :
         firebase_admin.initialize_app(cred, {databaseurl})
         ref= db.reference(basepath)
         return ref
-    def helloworld(self):
+    helloworld(self):
         return "Hello world"

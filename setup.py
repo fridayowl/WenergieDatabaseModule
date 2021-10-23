@@ -13,7 +13,7 @@ LONG_DESCRIPTION = 'A package that contains all the functions to upload the data
 
 # Setting up
 setup(
-    name="wenergedatabasemodule",
+    name="wenergiedatabasemodule",
     version=VERSION,
     author="Shinoj cm",
     author_email="amshinojcm@gmail.com",
